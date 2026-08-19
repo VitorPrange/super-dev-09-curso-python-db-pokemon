@@ -1,0 +1,48 @@
+# Ambiente virtual
+env/
+.env/
+venv/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# FastAPI / Uvicorn
+*.log
+
+# Banco de dados local (se usar SQLite)
+*.db
+*.sqlite3
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
